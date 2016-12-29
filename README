@@ -1,0 +1,52 @@
+Soma project started in summer 2003 to manage the digital version of an 
+acitvists radio old spools.
+The first  release just  gave just the chance to play random some audio files
+in a directory using an external program (at that time mpg123). In despite 
+of that this software was never used, i kept on thinking about soma project 
+for some weeks, until i started directly to work with a group called Reload,
+which was experimenting at the time a project called "eterete" and creating 
+a place for a web radio at Pergola Tribe (a selfmanaged house in Milan).
+
+We used, of course, a release, which was a little bit better to manage the 
+radio-playlist and of course we implemented the software itself. From 
+september till december soma became a software suite, configurable through 
+file and  (remote administration...). That's thanks to the relationships and 
+the inputs that such a community like Reload can create :)
+
+A group of passionate activists was able to make broadcastings and broadcast 
+schedules, to find out new problems and to give implementation advices. They 
+also suggest me the idea that soma (originally a simple play-list manager) 
+could become a programs suite, which has a player, a software for deferred 
+broadcasting, a more user friendly admininstration, documentation and 
+distribution.
+
+Some time after came soma player and soma admin. The player was still very 
+behind compared to my implementation ideas. Somadmin was straight away on 
+line and advertised on radio.inventati.org/somadmin/
+
+In January 2004 we showed Soma at the first italian (web and air-waves) radio 
+meeting in Naples.The meeting was technologically and politically profitable 
+and it was an attempt to build up a real radio-network.
+Radio.inventati.org was actually the only example od direct cooperation among 
+even very different people: individuals, improvised groups, very old and 
+movement radios and experiences from overseas countries.
+
+On the web site there are occasional streamings, weekly streamings, and 24hrs 
+music flows.
+
+The object of the technical research was a digital environment, which could let
+individuals or whole communities gain access to a common schedule with resum?s,
+repetitions, deferred programs, live broadcastings, regular broadcastings as 
+one national and international network.
+Soma could satisfy this need and could be easly managed through the web thanks 
+to somadmin, which could update the soma  admin  in real time.
+
+The developments went on. Somaplayer  is now reality. The only music player 
+which can stream directly an mp3, an ogg vorbis, a wav, a track from an audio 
+cd or a streaming directly on an icecast server (icecast 2 or shoutcast) or 
+just play it on a computer using sound drivers or sound daemons.
+
+At the moment more other people work at this project, who debug the software, 
+write docs, work at the website and make installation packages (for debian).
+
+Good hacking.

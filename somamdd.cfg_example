@@ -1,0 +1,45 @@
+# SomaMdd configuration:
+
+# UnixSocket - If True somamdd connects to a somad in unix socket. 
+#              Else a TCP socket. Default=false
+UnixSocket = false
+
+# UnixPath - The path of socket
+UnixPath = "/tmp/test.sock"
+
+# TCP Socket:
+# ServerName - Binding your server  on a interface
+Server = "localhost"
+
+# Port - Default 12521
+#Port = 12521
+
+Ssl = false # or true?
+
+# Password:
+Password="passwd"
+
+# Debug:
+Debug = 2
+# 0 only error
+# 1 warning and error
+# 2 all
+
+# LogFile - default /var/log/somamdd.log
+LogFile = "/tmp/somamdd.log"
+
+Cast {
+  Type = icecast2
+  password = PASSWORD
+  port = 8000
+  server = stream.indivia.net # Without http://
+  mount = test.ogg
+}
+
+Cast {
+  Type = icecast
+  password = PASSWORD
+  port = 8100
+  server = ahimsa.indymedia.org
+  mount = r0x.mp3
+}
